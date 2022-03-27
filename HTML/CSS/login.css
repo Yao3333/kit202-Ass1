@@ -1,0 +1,55 @@
+
+
+div {
+    width: 430px;
+    height: 250px;
+    border: 1.5px solid #A4A4A4;
+    margin:200px auto;
+}
+
+table {
+	max-width: 800px;
+	margin: auto;
+    margin-top: 50px;
+    
+	text-align: left;
+}
+
+.lable {
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    
+}
+
+input[type="text"],input[type="password"] {
+    
+    box-sizing: border-box;
+    border: 1px solid #D8D8D8;
+    height: 33px;
+    border-radius: 3px;
+    outline: none;
+    padding: 3px;
+    color: #A4A4A4;  
+    width: 180px;
+
+    margin-bottom: 2px;
+}
+
+button {
+    height: 30px;
+    padding: 0 10px;
+    border: unset;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+button[id="login"] {
+    background-color: #DF0101;
+    
+}
+button[id="Register"] {
+    background-color: #848484;
+}

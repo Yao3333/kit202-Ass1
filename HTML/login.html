@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+
 </head>
 <body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="archive.html">Archive</a></li>
+                <li><a class="nav-link" href="login.html">Login</a></li>
+                <li><a class="nav-link" href="create.html">Create Post</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main page content -->
+
+    <main>
+        <div>
+            <h2>Login share your idea</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td class="lable">Username</td>
+                        <td>
+                            <input type="text" name="username" id="username">
+                        </td>
+                    </tr>
     
+                    <tr>
+                        <td class="lable">Password</td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                </table>
+    
+                <button type="submit" id="login">Login</button>
+            </form>
+            <p class="account">Don't have an account? <button type="button" name="registration" id="registration">Sign up</button></p>
+        </div>
+        
+
+    </main>
 </body>
 </html>

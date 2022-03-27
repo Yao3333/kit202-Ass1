@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+
+
+
+.navbar li {
+    float: left;
+    
+}
+
+.nav-link {
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    padding: 14px 16px;
+
+    font-size: 16px;
+    font-weight: 550;
+    color: #152035;
+}
+
+/* Links on mouse-over */
+.nav-link.active, .nav-link:hover {
+    color: #f67280;
+    background-color: #ffffff;
+  }
+  
+
+  
+
