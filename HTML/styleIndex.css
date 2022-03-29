@@ -39,7 +39,7 @@ a:link{text-decoration: none; color: white}
 }
 
 .blog{
-    border: 1px solid #778899;
+    border-top: 1px solid #778899;
     margin-bottom: 20px;
     margin-right: 200px;
     padding: 10px;
