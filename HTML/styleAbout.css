@@ -1,0 +1,58 @@
+.header{
+    background-color: lightcoral;
+    color: white;
+    padding: 25px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+a:visited{text-decoration: none; color: white}
+a:link{text-decoration: none; color: white}
+
+.nevigation{
+    background-color: #778899;
+    padding: 10px;
+    margin-top: -23px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+}
+
+.links{
+  
+    margin-left: 30px;
+}
+
+.gg-layout-list{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -11.5px;
+}
+
+.nevi-links{
+    padding-left: 20px;
+}
+
+.filter{
+    color: #778899;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+
+.blog{
+    border-top: 1px solid #778899;
+    margin-bottom: 35px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.title{
+    font-size: x-large;
+}
+
+.time{
+    font-size: small;
+    color: #778899;
+}
