@@ -1,55 +1,62 @@
-.header{
-    background-color: lightcoral;
-    color: white;
-    padding: 25px;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleIndex.css">
+    <link href='https://css.gg/layout-list.css' rel='stylesheet'>
 
-a:visited{text-decoration: none; color: white}
-a:link{text-decoration: none; color: white}
+</head>
+<body>
+    <h1 class = "header">Blog</h1>
+<div class = "nevigation">
+    <i class="gg-layout-list"></i>
+    <div class="links">    
+        <a href="index.html" class="nevi-links">Home</a>
+        <a href="achieve.html" class="nevi-links" target="_blank">Achieve</a>
+        <a href="login.html" class="nevi-links" target="_blank">Login</a>
+        <a href="create.html" class="nevi-links" target="_blank">Creat Post</a>
+        <a href="about.html" class="nevi-links" target="_blank">About</a>
+    </div>
+</div>
 
-.nevigation{
-    background-color: #778899;
-    padding: 10px;
-    margin-top: -23px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: 0px;
-}
+<p class="filter">Home > Most Resent Post  > </p>
 
-.links{
-  
-    margin-left: 30px;
-}
+<div class="blog">
+    <b class="title">Introduction</b><br/>
+    <i class="time">Create In: 7 March 2022</i>
+    <p class="paragraph">
+    This unit provides students with the knowledge, understanding, and skills required to develop an application system which uses a web interface to a back-end database. The unit assumes a sound basic knowledge of programming and database concepts and skills as developed in the introductory units in these areas. The emphasis in the unit is on mastery of the key concepts and the basic knowledge and skills required to build this kind of application. The unit will provide students with an awareness of the wide range of technologies which are used to support this kind of application but will examine only a limited number of these technologies to demonstrate the key concepts and their application. The unit explores the purposes and approaches in using scripting and mark-up languages in relation to the client-server paradigm. The role of both server-side and client-side code are examined. Students will study the use of mark-up and scripting programming languages to connect to databases via a network
+    </p>
+</div>
 
-.gg-layout-list{
-    color: white;
-    margin-top: 10px;
-    margin-bottom: -11.5px;
-}
+<div class="blog">
+    <b class = "title">Communication</b><br/>
+    <i class="time">Create In: 2 March 2022</i>
+    <p class="paragraph">
+    Updates and announcements will be posted to the unit MyLO page. You are expected to be aware of the content of such posts within 48 hours of them being posted. Not monitoring unit communications is not a valid reason for requesting an extension or for not being aware of any changes.<br/><br/>
+    Please refer to the information provided on MyLO before asking a question related to the unit. Questions that are not answered on MyLO should be asked during consultation times, tutorials/lectures, or, as a final option, directed to the Unit Coordinator via email.
+    </p>
+</div>
 
-.nevi-links{
-    padding-left: 20px;
-}
+<div class="blog">
+    <b class = "title">Unit web site</b><br/>
+    <i class="time">Create In: 27 February 2022</i>
+    <p class="paragraph">
+    This unit is Web Dependent: content & communication. This means that you will need to use the Web for this unit. The unit website contains unit information and resources. <br/><br/>
+    MyLO is the online learning environment at the University of Tasmania. This is the system that will host the online learning materials and activities for this unit. It is important that you are able to access and use MyLO as part of your study in this unit. To find out more about the features and functions of MyLO, and to practice using them, visit the 'Getting Started in MyLO' unit.
+    </p>
+</div>
 
-.filter{
-    color: #778899;
-}
+<div class="blog">
+    <b class = "title">Developing attainment of SFIA</b><br/>
+    <i class="time">Create In: 17 February 2022</i>
+    <p class="paragraph">
+        As an accredited Australian Computing Society (ACS) course, each unit offered in this ICT course assists students in the attainment of SFIA skills which can help you achieve your specific career goals. As you progress through the course you will develop depth with the skills at increasing levels of responsibility ranging from 1-5.
+    </p>
+</div>
 
-.blog{
-    border-top: 1px solid #778899;
-    margin-bottom: 20px;
-    margin-right: 200px;
-    padding: 10px;
-}
-
-.title{
-    font-size: x-large;
-}
-
-.time{
-    font-size: small;
-    color: #778899;
-}
+</body>
+</html>
