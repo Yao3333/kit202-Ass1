@@ -38,3 +38,18 @@ a:link{text-decoration: none; color: white}
     color: #778899;
 }
 
+.blog{
+    border: 1px solid #778899;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.title{
+    font-size: x-large;
+}
+
+.time{
+    font-size: small;
+    color: #778899;
+}
