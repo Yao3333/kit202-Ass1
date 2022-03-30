@@ -1,55 +1,68 @@
+main {
+    height: 100vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-div {
-    width: 430px;
-    height: 250px;
-    border: 1.5px solid #A4A4A4;
-    margin:200px auto;
+    overflow: hidden;
+    background-color: salmon;
 }
 
-table {
-	max-width: 800px;
-	margin: auto;
-    margin-top: 50px;
-    
-	text-align: left;
+.form-box {
+    /* 相对定位 */
+    position: relative;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    /* 背景模糊 */
+    backdrop-filter: blur(25px);
+    /* 阴影 */
+    box-shadow: 0, 0, 50px, 20px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+
 }
 
-.lable {
-    display: inline-block;
-    width: 120px;
-    font-size: 18px;
-    
+.form-box p {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
-input[type="text"],input[type="password"] {
-    
-    box-sizing: border-box;
-    border: 1px solid #D8D8D8;
-    height: 33px;
-    border-radius: 3px;
-    outline: none;
-    padding: 3px;
-    color: #A4A4A4;  
-    width: 180px;
-
-    margin-bottom: 2px;
-}
-
-button {
+.form-box input {
+    width: 250px;
     height: 30px;
-    padding: 0 10px;
-    border: unset;
-    color: #fff;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: auto;
+    margin: 13px auto;
+
+    background: transparent;
+    text-indent: 7px;
+    border: none;
+    border-bottom: 1px solid rgba(216, 9, 9, 0.8)
 }
 
-button[id="login"] {
-    background-color: #DF0101;
-    
+.form-box button[id="login"] {
+    width: 260px;
+    height: 35px;
+    margin: 35px auto 60px auto;
+    border: none;
+    background-color:#69be1a;
+    color: rgb(10, 6, 51);
+    border-radius: 8px;
+
+    letter-spacing: 1.5px;
+    font-weight: bold;
 }
-button[id="Register"] {
-    background-color: #848484;
+
+.form-box button[id="login"]:hover {
+    background-color: #54aa04;
+}
+
+.form-box span {
+    font-size: 14px;
 }
