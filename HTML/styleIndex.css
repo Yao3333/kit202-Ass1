@@ -1,55 +1,66 @@
 .header{
-    background-color: lightcoral;
+    
     color: white;
-    padding: 25px;
-    margin-top: -8px;
+    font-style: Verdana;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-bottom: -40px;
 }
 
 a:visited{text-decoration: none; color: white}
 a:link{text-decoration: none; color: white}
 
 .nevigation{
-    background-color: #778899;
+    border-bottom: 5px solid rgb(41, 120, 199);
+    background-color: #1b242e;
+    ;
     padding: 10px;
-    margin-top: -23px;
+    margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: 0px;
 }
 
 .links{
-  
-    margin-left: 30px;
+    
+    margin-left: 300px;
 }
 
 .gg-layout-list{
-    color: white;
+    color:white;
     margin-top: 10px;
     margin-bottom: -11.5px;
 }
 
 .nevi-links{
-    padding-left: 20px;
+
+    padding-left: 50px;
+    font-size: large;
+    font-weight: 530;
+    font-style: helvetica;
 }
 
 .filter{
     color: #778899;
     font-weight: 600;
-    font-size: xx-large;
+    font-size: x-large;
     margin-left: 5px;
 }
 
 .blog{
     border-top: 1px solid #778899;
     margin-bottom: 35px;
-    margin-right: 200px;
+    margin-right: 500px;
     padding: 10px;
 }
 
 .title{
     font-size: x-large;
+    color: rgb(41, 120, 199);
 }
 
 .time{
