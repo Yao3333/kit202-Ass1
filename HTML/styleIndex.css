@@ -2,7 +2,7 @@
     
     color: white;
     font-style: Verdana;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-bottom: 30px;
     padding-top: 20px;
     margin-top: 0px;
@@ -14,6 +14,11 @@
 a:visited{text-decoration: none; color: white}
 a:link{text-decoration: none; color: white}
 
+ul > li {
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
 .nevigation{
     border-bottom: 5px solid rgb(41, 120, 199);
     background-color: #1b242e;
@@ -22,12 +27,12 @@ a:link{text-decoration: none; color: white}
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: 0px;
+
 }
 
 .links{
     
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .gg-layout-list{
@@ -37,11 +42,19 @@ a:link{text-decoration: none; color: white}
 }
 
 .nevi-links{
-
+ 
     padding-left: 50px;
     font-size: large;
     font-weight: 530;
-    font-style: helvetica;
+    font-style: Helvetica;
+}
+
+
+#login{
+    color: white;
+    margin-left: 300px;
+    margin-bottom: -20px;
+    font-size: smaller;
 }
 
 .filter{
