@@ -1,0 +1,101 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+.mainhead {
+	background-color: lightcoral;
+	color: white;
+	padding: 25px;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+a:visited {
+	text-decoration: none;
+	color: white
+}
+
+a:link {
+	text-decoration: none;
+	color: white
+}
+
+
+.title {
+	background-color: #778899;
+	padding: 10px;
+	margin-top: -23px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: 0px;
+}
+.links {
+	padding-left: 20px;
+}
+.postpannel {
+	margin-left: 30px;
+}
+.gg-layout-list {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: -11.5px;
+}
+#titleinput {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.smallheading {
+	text-align: center;
+}
+#main {
+	width: 100%;
+	height: 400px;
+	
+}
+
+.input {
+	border-style: ridge;
+	border-width: 5px;
+	border-color: lightcoral;
+	border-radius: 10px;
+}
+
+#submitButton {
+	background-color: #778899;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	width:100%;
+	height:50px;
+}
+.username {
+	text-align: center;
+}
+.filter {
+	text-align: right;
+}
+.achievetitle {
+	border-bottom-style: groove;
+	border-bottom-color: lightcoral;
+}
+.blogtitle {
+	border-top: 1px solid #778899;
+	margin-bottom: 35px;
+	margin-right: 200px;
+	padding: 10px;
+}
+.time {
+	font-size: small;
+	color: #778899;
+}
+.oldtitle{
+	color:blue
+}
