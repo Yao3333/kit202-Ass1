@@ -5,34 +5,39 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="csstitle.css">
     <link href='https://css.gg/layout-list.css' rel='stylesheet'>
+    <link href='https://css.gg/layout-list.css' rel='stylesheet'>
+    <link href='https://css.gg/user.css' rel='stylesheet'>
     <title></title>
 </head>
 <body>
-    <h1 class="mainhead">Blog</h1>
-    <div class="title">
-        <i class="gg-layout-list"></i>
-        <div class="postpannel">
-            Create Post
-            <a href="archive.html" class="links">Achieve</a>
-            <a href="index.html" class="links">Home</a>
-            <a href="about.html" class="links">About</a>
-            <a href="index.html" class="links" id="logout">Log out</a>
+    <div class="nevigation">
+
+        <h1 class="header">Bloge</h1>
+        <div class="links">
+            <ul>
+                <li><a href="index.html" class="nevi-links">Home</a></li>
+                <li><a href="achieve.html" class="nevi-links" target="_blank">Achieve</a></li>
+                <li><a href="create.html" class="nevi-links" target="_blank">Creat Post</a></li>
+                <li><a href="about.html" class="nevi-links" target="_blank">About</a></li>
+                <li><a href="login.html" class="nevi-links" id="login" target="_blank">Login/Sign Up</a></li>
+            </ul>
         </div>
+
     </div>
-    <br />
+
     <form name="myform">
-        
-        <h3 class="smallheading">Create the title of your post(with in 70 characters)</h3>
-        <input type="text" id="titleinput" class="input"  placeholder="Please enter your title here..." maxlength="70" required />
-        <h3 class="smallheading">Create your post here</h3>
-        <input type="text" id="main" class="input" placeholder="plesase enter your main body here..." required >
+        <h3 id ="ttitle"class="smallheading">Create the title of your post(with in 70 characters)</h3>
+        <input type="text" id="titleinput" class="input"/>
+        <h3 id ="mtitle" class="smallheading">Create your post here</h3>
+        <input type="text" id="main" class="input" >
         <div>
             <br />
             <br />
-            <input type="submit"  value="Submit" id="submitButton" >
+            <p id="message"></p>
+            <input type="submit" value="Submit" id="submitButton">
         </div>
-      
+
     </form>
-    <script src="javascript.js" ></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
