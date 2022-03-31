@@ -1,7 +1,9 @@
+/*CSS code for Navigation Bar Start from HERE*/
 .header{
     
     color: white;
     font-style: Verdana;
+    font-size: xx-large;
     padding-left: 70px;
     padding-bottom: 30px;
     padding-top: 20px;
@@ -9,10 +11,15 @@
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -70px;
+    
 }
 
 a:visited{text-decoration: none; color: white}
 a:link{text-decoration: none; color: white}
+
+.content{
+    margin-top: 60px;
+}
 
 ul > li {
     display: inline-block;
@@ -22,12 +29,12 @@ ul > li {
 .nevigation{
     border-bottom: 5px solid rgb(41, 120, 199);
     background-color: #1b242e;
-    ;
+    width: 100%;
     padding: 10px;
-    margin-top: -8px;
+    margin-top: -26px;
     margin-left: -8px;
     margin-right: -8px;
-
+    position: fixed;
 }
 
 .links{
@@ -56,6 +63,9 @@ ul > li {
     margin-bottom: -20px;
     font-size: smaller;
 }
+/*CSS for Navigation bar end*/
+
+/*The Content of index.html Start from Here */
 
 .filter{
     color: #778899;
@@ -69,7 +79,9 @@ span.blue{
 }
 
 .announce-icon{
-    margin-left: 170px;
+    padding-left: 100px;
+
+
 }
 
 .inter-link{
@@ -80,8 +92,18 @@ span.blue{
     margin: 0px;
 }
 
+table {
+    display: block; 
+}
+
+td{
+    
+}
+
 .Recent{
     border: 1px solid #778899;
+    width: 30%;
+    height: 200px;
     margin-bottom: 35px;
     margin-right: 800px;
     padding: 25px;
